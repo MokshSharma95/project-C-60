@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+}
+
+.pic {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 20%;
+}
+
+#welcome {
+    position: absolute;
+    height: 500px;
+    color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(#de221f 0%, #1fded5 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.pie {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+    background-color: black;
+}
+
+p {
+    max-width: 500px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+
+}
+.football {
+    height: 200px;
+    width: 300px;
+}
+
+.link {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: 'New Tegomin', cursive;
+    font-size: 20px;
+    float: left;
+}
+h3{
+    color: #CCFF90;
+}
+
+.link:hover {
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+.articles:hover{
+    color:fuchsia;
